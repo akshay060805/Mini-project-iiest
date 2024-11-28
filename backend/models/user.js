@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+mongoose.connect('mongodb+srv://vanamaakshay06:akki8464@startupsphere.skqyr.mongodb.net/?retryWrites=true&w=majority&appName=startupsphere/startupsphere')
 
 const userSchema = mongoose.Schema({
     email: String,
